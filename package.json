@@ -8,12 +8,19 @@
   "scripts": {
     "build": "browserify main.js > public/bundle.js"
   },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
   "dependencies": {
     "ecstatic": "^0.5.4",
     "imap": "^0.8.12",
+    "react": "^0.11.0",
     "sneaker": "git://github.com/aredridel/sneaker"
   },
   "devDependencies": {
-    "browserify": "^4.2.1"
+    "browserify": "^4.2.1",
+    "reactify": "^0.14.0"
   }
 }
