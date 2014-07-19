@@ -7,7 +7,7 @@ var dc = require('duplex-combination');
 
 var s = sneaker('/imap');
 
-var c = imap({socket: pretendSocket(s), user: 'test', password: 'test'});
+var c = imap({socket: pretendSocket(s), user: 'test', password: 'test', authTimeout: 10000});
 c.connect();
 
 function pretendSocket(s) {
