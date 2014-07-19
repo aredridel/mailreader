@@ -5,8 +5,13 @@
   "main": "index.js",
   "author": "Aria Stewart <aredridel@dinhe.net>",
   "license": "ISC",
+  "scripts": {
+    "build": "browserify main.js > public/bundle.js"
+  },
   "dependencies": {
-    "imap": "^0.8.12"
+    "ecstatic": "^0.5.4",
+    "imap": "^0.8.12",
+    "sneaker": "git://github.com/aredridel/sneaker"
   },
   "devDependencies": {
     "browserify": "^4.2.1"
