@@ -6,7 +6,7 @@
   "author": "Aria Stewart <aredridel@dinhe.net>",
   "license": "ISC",
   "scripts": {
-    "build": "browserify main.js > public/bundle.js"
+    "prepare": "browserify main.js > public/bundle.js"
   },
   "browserify": {
     "transform": [
