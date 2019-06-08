@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "duplex-combination": "^1.2.1",
-    "ecstatic": "^3.1.1",
+    "ecstatic": "^3.3.2",
     "imap": "^0.8.19",
     "react": "^16.2.0",
     "sneaker": "git://github.com/aredridel/sneaker"
