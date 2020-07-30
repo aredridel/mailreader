@@ -15,13 +15,13 @@
   },
   "dependencies": {
     "duplex-combination": "^1.2.1",
-    "ecstatic": "^3.3.2",
+    "ecstatic": "^4.1.4",
     "imap": "^0.8.19",
     "react": "^16.13.1",
     "sneaker": "git://github.com/aredridel/sneaker"
   },
   "devDependencies": {
-    "browserify": "^14.5.0",
+    "browserify": "^16.5.1",
     "reactify": "^1.1.1"
   }
 }
